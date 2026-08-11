@@ -1,3 +1,7 @@
+# macOS
+.DS_Store
+._*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -77,6 +81,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.nbconvert.ipynb
+.jupyter/
 
 # IPython
 profile_default/
@@ -136,6 +142,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -143,6 +151,15 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Secrets and credentials
+credentials*.json
+secrets*.json
+service-account*.json
+*.pem
+*.p12
+*.pfx
+id_rsa*
 
 # Spyder project settings
 .spyderproject

@@ -1,0 +1,13 @@
+anthropic
+beautifulsoup4
+chromadb
+fredapi
+jupyterlab
+lxml
+matplotlib
+numpy
+pandas
+pydantic
+python-dotenv
+requests
+tenacity
